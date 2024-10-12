@@ -1,0 +1,6 @@
+version: '1.2'
+services:
+  microservice:
+    build: .
+    ports:
+      - "8081:8080"
