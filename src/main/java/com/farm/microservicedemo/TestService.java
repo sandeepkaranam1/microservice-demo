@@ -13,9 +13,4 @@ public class TestService {
     return "Hello How are you?";
   }
 
-  @GetMapping("/next")
-  public String hello1(){
-    return "Next, why How are you?";
-  }
-
 }
