@@ -18,4 +18,9 @@ public class TestService {
     return "testing";
   }
 
+  @GetMapping("/test2")
+  public String hello2(){
+    return "testing";
+  }
+
 }
